@@ -6,11 +6,6 @@ export default function Layout(props) {
     <div>
       <Head>
         <title>{props.title}</title>
-        <link
-          rel="shortcut icon"
-          href="https://images.tokopedia.net/img/cache/215-square/GAnVPX/2021/6/28/4ebaa87d-9963-4db1-84d8-68aed6951e01.png"
-          type="image/x-icon"
-        />
       </Head>
       <div className="border-bottom border shadow-sm">
         <div className="xl:container mx-auto grid grid-cols-3">
@@ -28,8 +23,8 @@ export default function Layout(props) {
               <div>
                 <p className="text-xl font-semibold">Fitrah Lamusu</p>
                 <p className="antialiased text-sm text-gray-500">
-                  Front-end Candidate <br />
-                  P.T. Otoklix Indonesia
+                  Front-end Engineer <br />
+                  Maybank Indonesia
                 </p>
               </div>
             </div>
